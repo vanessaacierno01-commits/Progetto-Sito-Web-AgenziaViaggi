@@ -422,7 +422,72 @@ footer .social a {
     text-decoration: none;
 
     font-weight: bold;
+}
 
+@media (max-width: 992px) {
+nav {
+width: 90%;
+padding: 15px 5%;
+}
+
+.hero h1 {
+font-size: 2.8rem;
+}
+
+.hero p {
+font-size: 1.2rem;
+}
+
+section {
+padding: 70px 8%;
+}
+
+article img {
+height: 200px;
+}
+}
+
+
+@media (max-width: 600px) {
+nav {
+flex-direction: column;
+text-align: center;
+gap: 10px;
+}
+
+nav ul {
+flex-direction: column;
+margin-top: 10px;
+}
+
+nav ul li {
+margin: 10px 0;
+}
+
+.hero h1 {
+font-size: 2rem;
+}
+
+.hero p {
+font-size: 1rem;
+}
+
+.btn {
+padding: 10px 25px;
+font-size: 0.9rem;
+}
+
+section {
+padding: 50px 5%;
+}
+
+article img {
+height: 160px;
+}
+
+footer {
+padding: 30px 5%;
+}
 }
 
 
